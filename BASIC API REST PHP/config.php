@@ -1,7 +1,9 @@
 <?php
 
-const ROOT = "http://localhost/API%20REST%20-%20TESTE";
+// URL RAIZ DA SUA API
+const ROOT = "http://localhost/GitHub/BASIC-API-REST-PHP/BASIC%20API%20REST%20PHP";
 
+// DADOS DO BANCO
 define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
