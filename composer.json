@@ -1,0 +1,25 @@
+{
+    "name": "davic/teste",
+    "description": "Transformando aula de api rest com componentes",
+    "authors": [
+        {
+            "name": "Davi",
+            "email": "davicavalcante.itap.ce@gmail.com",
+            "role": "Web Developer BackEnd"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source"
+        },
+
+        "files": [
+            "config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*"
+    }
+}
