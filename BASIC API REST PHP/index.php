@@ -14,19 +14,19 @@ $route->group(null);
 $route->get("/", "Web:home");
 
 // Select 
-$route->get("/api/user", "UserService:get");
+$route->get("/api/user/listar", "UserService:get");
 
 // Select Where
-$route->get("/api/user/{id_user}", "UserService:get");
+$route->get("/api/user/listar/{id_user}", "UserService:get");
 
 // Insert
-$route->post("/api/user", "UserService:post");
+$route->post("/api/user/inserir", "UserService:post");
 
 // Delete
-$route->delete("/api/user/{id_user}", "UserService:delete");
+$route->delete("/api/user/deletar/{id_user}", "UserService:delete");
 
 //Edit
-$route->put("/api/user/{id_user}", "UserService:put");
+$route->put("/api/user/editar/{id_user}", "UserService:put");
 
 
 /**
