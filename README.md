@@ -50,28 +50,30 @@ define("DATA_LAYER_CONFIG", [
 
 #### GET 
 
+#### LISTAR TODOS OS USUÁRIOS
 ```http
 /user/listar
 ```
+#### LISTAR USUÁRIO ESPECÍFICO POR MEIO DA VARIÁVEL `$id`
 
 ```http
 /user/listar/{$id}
 ```
 
 #### POST 
-
+#### INSERIR USUÁRIO NO BANCO DE DADOS
 ```http
 /user/inserir
 ```
 
 #### PUT 
-
+#### EDITAR USUÁRIO ESPECÍFICO POR MEIO DA VARIÁVEL `$id`
 ```http
 /user/editar/{$id}
 ```
 
 #### DELETE 
-
+#### DELETAR USUÁRIO ESPECÍFICO POR MEIO DA VARIÁVEL `$id`
 ```http
 /user/deletar/{$id}
 ```
